@@ -1,2 +1,2 @@
 # instructional-project
-example project from the summer 2025- code a brations
+my example project from the summer 2025 Kode with Klossy Code- a - Bration
