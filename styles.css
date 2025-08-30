@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+/* TODO: Edit the properties below to customize your website! */
+body {
+  background: linear-gradient(to bottom, white, #add8e6);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 28pt;
+  margin: 20px 50px 30px 50px;
+  /* font-family: "GFS Didot", serif; */
+  font-family: "DM Serif Display", serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+}
+
+.bigHeader {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #4040bf;
+  margin-bottom: 10px;
+  text-shadow: 4px 4px #cef2d7;
+  letter-spacing: 3px;
+}
+
+.smallHeader {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #37474f;
+  letter-spacing: 5px;
+}
+
+p {
+  width: 80%;
+  text-align: left;
+  margin: 10px 50px;
+  font-family: "GFS Didot", serif;
+  font-size: large;
+}
+
+.bubble {
+  background-color: white;
+  border-radius: 10px;
+
+  width: 80%;
+
+  padding: 5px 0px;
+  padding-bottom: 28px;
+
+  margin: 50px 0 10px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid royalblue;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Edit me to change the appearance of the button! */
+button {
+  font-size: 12pt;
+  /*ccccff*/
+  background-color: #cef2d7;
+  border: none;
+  /* for rounded corners */
+  border-radius: 5px;
+  font-family: "GFS Didot", serif;
+  width: 150px;
+  height: 50px;
+  margin: 20px 50px;
+}
+
+.bubble_2 {
+  background-color: white;
+  border-radius: 10px;
+
+  width: 80%;
+
+  padding: 10px 0;
+  padding-bottom: 28px;
+
+  margin: 50px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid royalblue;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bubble_2 img {
+  width: 240px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 10px;
+
+  border: 4px dotted #bfefb9;
+}
+
+.bubble img {
+  padding: 10px;
+  width: 280px;
+  height: 400px;
+  border-radius: 20px;
+  border: 4px dotted #bfefb9;
+}
+
+button:hover {
+  background-color: #e7e7e9;
+  cursor: pointer;
+}
+
+/* The camera */
+.camera {
+  display: flex;
+  justify-content: center;
+}
+
+/* The labels */
+#label-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 12pt;
+
+  margin: 25px;
+}
+
+.popup {
+  display: none; /* Initially hidden */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+}
+
+/* webcam border */
+#webcam-container canvas.active {
+  border: 8px solid royalblue; /* Border appears when active */
+  border-radius: 10px;
+}
