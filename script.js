@@ -147,3 +147,20 @@ function drawPose(pose) {
 }
 
 */
+
+
+const audio = document.createElement("audio");
+audio.src = "https://cdn.jsdelivr.net/gh/coleneagbo/media_assets@main/Coldplay_-_Clocks_(mp3.pm).mp3";
+const musicbutton = document.getElementById("music-button");
+musicbutton.addEventListener("click", playMusic);
+audio.loop =true;
+
+function playMusic() {
+  if (!audio.paused) {
+    audio.pause();
+  }
+  else{
+    audio.play();
+
+  }
+}
