@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My Machine Learning Model</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=GFS+Didot&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+
+    <nav class ="menu">
+        <ul>
+          <li><a href ="index.html">home</a></li>
+          <li><a href ="about.html">about</a></li>
+        </ul>
+      </nav>
+
+<div class="bubble">
+    <h1>About the Creator ◡̈ </h1>
+
+ 
+
+    <img
+      src="https://user44015.na.imgto.link/public/20261012/e3b34c05cbdc7b570c5b0821-img-4374.avif"
+      alt=""
+    />
+    <p>
+      Hi y'all! My name is Colene. <br>I'm super excited to be here at Code - A -
+      Bration today. <br><br>
+      
+      I'm from the San Fransisco Bay Area, but I go to school in LA. I am a thrid year studying computer science at UCLA! <br> <br>
+      My favorite things outside of tech are fashion, books, ballet, and the
+      winter season (summer is too hot and I get allergies in the spring!)
+      I also love doing the NYT Connections everyday <br> <br>
+
+      The covers for some of my favorite albums are below this. Do you recognize any of them?
+    </p>
+  </div>
+
+  <section class 'container'>
+    <div class = 'slider-wrapper'>
+        <div class = 'slider'>
+          <img id = 'slide-1' src = 'https://i.scdn.co/image/ab67616d00001e02d67f33117f7c795e22196b1a'/>
+            <img id = 'slide-2' src = 'https://i.pinimg.com/1200x/05/77/89/057789ca70919bf848f0c18c77837327.jpg'/>
+            <img id = 'slide-3' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWHZbfPe1OSNtZcaDyp9Fq7w1u-QSrGAtIJY4XhlfGgw&s=10'/>
+        </div>
+        <div class = 'slider-nav'>
+            <a href = '#slide-1'></a>
+            <a href = '#slide-2'></a>
+            <a href = '#slide-3'></a>
+        </div>
+    </div>
+  </section>
+
+<div id = "music_cont">
+  <h6>take a listen</h6>
+  <button id="music-button">play ▶︎  </button>
+</div>
+<script src="script.js"></script>
+
+  </body>
